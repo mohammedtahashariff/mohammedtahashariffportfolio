@@ -71,7 +71,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 fade-in-up" style={{ animationDelay: "0.5s" }}>
             <a
-              href="https://github.com"
+              href="https://github.com/mohammedtahashariff"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
@@ -79,7 +79,7 @@ const Hero = () => {
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mohammed-taha-shariff"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
@@ -87,7 +87,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:tahashariff2@gmail.com"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
             >
               <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />

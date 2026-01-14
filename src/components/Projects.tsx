@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Layers } from "lucide-react";
+import { Layers } from "lucide-react";
 
 interface Project {
   title: string;
@@ -16,8 +16,6 @@ const projects: Project[] = [
     description: "A comprehensive healthcare platform featuring an AI-powered chatbot for patient queries, automated appointment scheduling system, and real-time health monitoring dashboard.",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
     techStack: ["React", "Node.js", "Python", "TensorFlow", "MongoDB"],
-    liveLink: "#",
-    githubLink: "#",
     featured: true,
   },
   {
@@ -25,23 +23,18 @@ const projects: Project[] = [
     description: "An interactive web-based calculator built during internship with advanced mathematical functions, theme customization, and calculation history feature.",
     image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=800&h=500&fit=crop",
     techStack: ["HTML", "CSS", "JavaScript"],
-    liveLink: "#",
-    githubLink: "#",
   },
   {
     title: "Family Scheduling App",
     description: "A collaborative family organizer with shared calendar functionality, smart reminders, task assignment, and real-time synchronization across devices.",
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop",
     techStack: ["React", "Node.js", "Firebase", "Material UI"],
-    liveLink: "#",
-    githubLink: "#",
   },
   {
     title: "Blockchain Learning Platform",
     description: "An educational platform for learning blockchain development with interactive tutorials, smart contract simulations, and certification system.",
     image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&h=500&fit=crop",
     techStack: ["React", "Solidity", "Web3.js", "Ethereum"],
-    githubLink: "#",
   },
 ];
 
@@ -111,31 +104,6 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Project Links */}
-                <div className="flex gap-4">
-                  {project.liveLink && (
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Live Demo
-                    </a>
-                  )}
-                  {project.githubLink && (
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      <Github className="w-4 h-4" />
-                      View Code
-                    </a>
-                  )}
-                </div>
               </div>
             </div>
           ))}
@@ -144,7 +112,7 @@ const Projects = () => {
         {/* More Projects CTA */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/mohammedtahashariff"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
