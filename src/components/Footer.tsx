@@ -12,9 +12,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:mohammedtaha@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/mohammedtahashariff", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/mohammed-taha-shariff", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:tahashariff2@gmail.com", label: "Email" },
   ];
 
   const handleNavClick = (href: string) => {
