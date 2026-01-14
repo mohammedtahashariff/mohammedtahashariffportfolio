@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import profileImage from "@/assets/profile.jpeg";
 
 const Hero = () => {
   const handleScrollToAbout = () => {
@@ -18,13 +19,27 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile Picture */}
+          <div className="mb-8 fade-in-up">
+            <div className="relative inline-block">
+              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary/50 shadow-[0_0_40px_hsl(187_85%_53%/0.3)] mx-auto">
+                <img 
+                  src={profileImage} 
+                  alt="Mohammed Taha Shariff" 
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 pointer-events-none" />
+            </div>
+          </div>
+
           {/* Greeting */}
-          <p className="text-primary font-mono text-lg mb-4 fade-in-up">
+          <p className="text-primary font-mono text-lg mb-4 fade-in-up" style={{ animationDelay: "0.1s" }}>
             Hello, I'm
           </p>
 
           {/* Name */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 fade-in-up" style={{ animationDelay: "0.2s" }}>
             Mohammed Taha{" "}
             <span className="gradient-text">Shariff</span>
           </h1>
