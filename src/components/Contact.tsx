@@ -36,14 +36,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "mohammedtaha@example.com",
-      href: "mailto:mohammedtaha@example.com",
+      value: "tahashariff2@gmail.com",
+      href: "mailto:tahashariff2@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 86605 16938",
+      href: "tel:+918660516938",
     },
     {
       icon: MapPin,
@@ -54,9 +54,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:mohammedtaha@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/mohammedtahashariff", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/mohammed-taha-shariff", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:tahashariff2@gmail.com", label: "Email" },
   ];
 
   return (
